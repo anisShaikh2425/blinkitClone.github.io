@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.navbar-nav{
+    position:fixed;
+    top: 0;
+    background-color:white;
+    /* border: 1px solid black; */
+}
+.nav-item{
+    margin:15px 100px;
+
+}
+.loginbtn{
+    width:120%;
+    height:100%;
+    outline: none;
+    border:none;
+    /* background-color: white; */
+}
+.cartBtn{
+    width:150%;
+    height:80%;
+    background-color: red; 
+
+}
+.imgmain{
+    width:6%;
+    
+    margin-top:10px;
+    margin-left:20px;
+   
+}
+
+.small-imgs{
+   width: 120px;
+   margin-left: 10px;
+}
+
+
+input{
+ 
+    width:500px;
+    height:90%;
+}
+.container{
+    background-color: lightskyblue;
+}
+
+.paan-img{
+    margin-top:8%;
+    width: 100%;
+}
+.imgs{
+    margin: 10px  20px;
+}
+
+/*  section products id  code */
+#products{
+    padding:5% 2%;
+}
+.fp-products{
+  width: 100%;
+  
+
+}
+.allproducts{
+    border: 1px solid black;
+    border-radius:20px;
+    height:300px;
+    
+}
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+
+.btn-primary{
+    float:right;
+}
+
+/* my cart hidden and show */
+.showCart{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    width:400px;
+    height:100%;
+    /* 100% me pura screen  cover karta wo */
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+
+}
+.headingofcart{
+    color: black;
+    background-color:white;
+    
+}
+.nullinfo{
+    text-align: center;
+}
+.pg{
+    text-align: center;
+}
+
+ .shopbtn{
+    display: block;
+   margin-left: auto;
+   width: 80%;
+
+   margin-right:auto;
+} 
+.mycartimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width:120px;
+    height:150px;
+}
+.shopOnlyBtn{
+width: 50%;
+margin:0 auto;
+}
+.crossbtn{
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
